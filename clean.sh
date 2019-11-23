@@ -1,7 +1,5 @@
-git clone https://github.com/cloudzun/dockerdemo
-
-cd dockerdemo
-
-bash setup.sh
+cd
+rm -rf dockerdemo
+az group delete -n  dockerdemo --yes
 
 
